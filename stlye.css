@@ -1,0 +1,74 @@
+.Main-container {
+ display: flex;
+ 
+ }
+
+
+
+.Left-container {
+ display: flex;
+ background-image: url('robert.jpg') ;
+ background-size: cover;
+ width: 40vw;
+ height: 50vw; 
+}
+
+.rights {
+ align-self: flex-end;
+}
+
+.Logoholder {
+ margin-top: 150px;
+   
+}
+
+
+.Right-container {
+ display: flex; 
+flex-direction: column;
+width: 60vw;
+height: 50vw;
+
+}
+
+.i-container {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ height: auto;  
+}
+
+.p1 {
+ height: auto;   
+}
+
+button {
+ margin-top: 2rem;
+ width: 15rem;
+ height: 4rem;
+ background-color: #596D48;
+ border-radius: 5%; 
+ font-size: 1rem;  
+}
+
+a:link {
+ text-decoration: none;
+ color: white;   
+}
+
+a:visited {
+ text-decoration: none;
+ 
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a:active {
+ text-decoration: underline;
+}
+
+
+.login {
+ margin-top: 2vh;   
+}

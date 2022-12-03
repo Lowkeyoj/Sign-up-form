@@ -1,6 +1,7 @@
-.Main-container {
+body {
  display: flex;
- 
+ margin: 0%;
+ padding: 0%;
  }
 
 
@@ -10,35 +11,53 @@
  background-image: url('robert.jpg') ;
  background-size: cover;
  width: 40vw;
- height: 50vw; 
+ height: 50vw;
+ flex-direction: column;
+ justify-content: space-between; 
 }
 
-.rights {
- align-self: flex-end;
+.left-paragraph {
+display: flex; 
+align-self: center;
+background-color: black;
+opacity: .50;
 }
 
-.Logoholder {
- margin-top: 150px;
-   
-}
 
+
+
+.logo {
+ margin-top: 20vh;
+ color: black;
+ background-color: aquamarine;
+ display: flex;
+ align-items: center; 
+ opacity: .50;
+ height: 15vh;
+ justify-content: center; 
+ gap: 10px; 
+}
 
 .Right-container {
  display: flex; 
 flex-direction: column;
 width: 60vw;
 height: 50vw;
-
+background-color: gray;
 }
 
 .i-container {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
- height: auto;  
+ height: auto;
+ margin-left: 150px;  
 }
 
-.p1 {
- height: auto;   
+
+
+.p2 {
+ margin-top: 10vh;
+ margin-bottom: 10vh;    
 }
 
 button {
@@ -47,7 +66,8 @@ button {
  height: 4rem;
  background-color: #596D48;
  border-radius: 5%; 
- font-size: 1rem;  
+ font-size: 1rem; 
+ margin-left: 25vw; 
 }
 
 a:link {
@@ -70,5 +90,9 @@ a:active {
 
 
 .login {
- margin-top: 2vh;   
+ margin-top: 17vh;   
+}
+
+p {
+ color: white;   
 }
